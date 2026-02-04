@@ -92,6 +92,6 @@ jobs:
           echo "✅ Passed" >> $GITHUB_STEP_SUMMARY
 
       - name: "BB CI Run"
-        uses: BuildBearLabs/buildbear_x_action@v1.7.3
+        uses: BuildBearLabs/buildbear_x_action@feat/test-simulation-workflow
         with:
           buildbear-api-key: "${{ secrets.BUILDBEAR_API_KEY }}"
