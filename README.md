@@ -98,7 +98,7 @@ contract MyContract is IUnlockCallback {
 
 error Unauthorized();
 ```
-- Test cicd
+- Test
 
 ## License
 
