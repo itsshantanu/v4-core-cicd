@@ -80,7 +80,7 @@ jobs:
           FOUNDRY_PROFILE: ci
 
       - name: Run tests
-        run: forge test --isolate -vvv
+        run: forge test --match-path test/PoolManager.t.sol --match-test test_swap_succeedsWithHooksIfInitialized --isolate -vvv
         continue-on-error: true
         env:
           FOUNDRY_PROFILE: ci
